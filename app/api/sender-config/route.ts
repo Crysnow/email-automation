@@ -112,7 +112,3 @@ export async function POST(request: NextRequest) {
   }
 }
 
-// Export the current configuration for use by other services
-export function getCurrentSenderConfig() {
-  return senderConfig
-}
